@@ -18,6 +18,8 @@ async def start(client, message):
     rm = InlineKeyboardMarkup(
         [[
             InlineKeyboardButton("✨ Update Channel", url="https://t.me/Sonickuwalupdate")
+        ]]
+        [[
             InlineKeyboardButton("JOIN MOVIE 🎥 GROUP", url="https://t.me/SONICKUWALMOVIE")
         ]] 
     )
