@@ -22,6 +22,7 @@ async def start(client, message):
     )
     await client.send_message(
         chat_id=message.from_user.id,
+        photo="https://graph.org/file/95a9fc09cc310c0c8cd6f.jpg",
         text=script.START_TXT.format(message.from_user.mention, temp.U_NAME, temp.B_NAME),
         reply_markup=rm,
         parse_mode=enums.ParseMode.HTML
@@ -65,6 +66,6 @@ async def stream_start(client, message):
             ]
         ] 
     )
-    msg_text = """<i><u>𝗬𝗼𝘂𝗿 𝗟𝗶𝗻𝗸 𝗚𝗲𝗻𝗲𝗿𝗮𝘁𝗲𝗱 !</u></i>\n\n<b>📂 FILE NAME :</b> <i>{}</i>\n\n<b>📦 FILE SIZE :</b> <i>{}</i>\n\n<b>📩 🅓🅞🅦🅝🅛🅞🅐🅓 🅛🅘🅝🅚 🖇️ :</b> <i>{}</i>\n\n<b> 📱 🅢🅣🅡🅔🅐🅜 🍿  :</b> <i>{}</i>\n\n<b>NOTES: 🌝 THIS FILE LINK ✅ NEVER DELETE ! 😃 /n/n ‣ JOIN  <a href="https://t.me/Sonickuwalupdate"> ⭐ TELEGRAM CHANNEL ⭐</a></b>"""
+    msg_text = """<i><u>𝗬𝗼𝘂𝗿 𝗟𝗶𝗻𝗸 𝗚𝗲𝗻𝗲𝗿𝗮𝘁𝗲𝗱 !</u></i>\n\n<b>📂 FILE NAME :</b> <i>{}</i>\n\n<b>📦 FILE SIZE :</b> <i>{}</i>\n\n<b>📩 🅓🅞🅦🅝🅛🅞🅐🅓 🅛🅘🅝🅚 🖇️ :</b> <i>{}</i>\n\n<b> 📱 🅢🅣🅡🅔🅐🅜 🍿  :</b> <i>{}</i>\n\n<b>NOTES: 🌝 THIS FILE LINK ✅ NEVER DELETE ! 😃/n/n‣ JOIN  <a href="https://t.me/Sonickuwalupdate"> ⭐ TELEGRAM CHANNEL ⭐</a></b>"""
 
     await message.reply_text(text=msg_text.format(get_name(log_msg), humanbytes(get_media_file_size(message)), download, stream), quote=True, disable_web_page_preview=True, reply_markup=rm)
