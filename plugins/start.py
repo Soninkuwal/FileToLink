@@ -20,9 +20,12 @@ async def start(client, message):
             InlineKeyboardButton("✨ Update Channel", url="https://t.me/Sonickuwalupdate")
         ]] 
     )
+    await c.send_photo(
+                chat_id=m.chat.id,
+                photo="https://graph.org/file/95a9fc09cc310c0c8cd6f.jpg",
+    )
     await client.send_message(
         chat_id=message.from_user.id,
-        photo="https://graph.org/file/95a9fc09cc310c0c8cd6f.jpg",
         text=script.START_TXT.format(message.from_user.mention, temp.U_NAME, temp.B_NAME),
         reply_markup=rm,
         parse_mode=enums.ParseMode.HTML
