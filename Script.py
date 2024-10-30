@@ -8,7 +8,21 @@ class script(object):
     
 ✏️ I Am A Advance File Stream Bot With Multiple Player Support And Url Shortner. Best Ui Performance.
 
-Now Send Me A Media To See Magic ✨</b>"""
+Now Send Me A Media To See Magic ✨
+
+╔══════════════════╗
+ [📌 JOIN MOVIE GROUP 🎭 ] 
+   👇👇👇👇👇👇👇👇👇
+<a href=https://t.me/SONICKUWALMOVIE>JOIN MOVIE 🎥 GROUP</a>
+
+ [📌 JOIN UPDATE CHANNEL ⚡]
+👇👇👇👇👇👇👇👇
+<a href=https://t.me/Sonickuwalupdate>JOIN UPDATED CHANNEL</a>
+╚══════════════════╝
+
+NOTES: 🌝 THIS FILE LINK ✅ NEVER DELETE ! 😃
+
+‣ JOIN  <a href="https://t.me/Sonickuwalupdate"> ⭐ TELEGRAM CHANNEL ⭐</a></b>"""
 
     LOG_TEXT_P = """#NewUser
 ID - <code>{}</code>
