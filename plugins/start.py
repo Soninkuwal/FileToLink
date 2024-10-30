@@ -18,10 +18,11 @@ async def start(client, message):
     rm = InlineKeyboardMarkup(
         [[
             InlineKeyboardButton("✨ Update Channel", url="https://t.me/Sonickuwalupdate")
+            InlineKeyboardButton("JOIN MOVIE 🎥 GROUP", url="https://t.me/SONICKUWALMOVIE")
         ]] 
     )
-    await c.send_photo(
-                chat_id=m.chat.id,
+    await clinet.send_photo(
+                chat_id=message.sand_user.id,
                 photo="https://graph.org/file/95a9fc09cc310c0c8cd6f.jpg",
     )
     await client.send_message(
