@@ -17,7 +17,7 @@ async def start(client, message):
         await client.send_message(LOG_CHANNEL, script.LOG_TEXT_P.format(message.from_user.id, message.from_user.mention))
     rm = InlineKeyboardMarkup(
         [[
-            InlineKeyboardButton("✨ Update Channel", url="https://t.me/vj_botz")
+            InlineKeyboardButton("✨ Update Channel", url="https://t.me/Sonickuwalupdate")
         ]] 
     )
     await client.send_message(
@@ -60,8 +60,8 @@ async def stream_start(client, message):
     rm=InlineKeyboardMarkup(
         [
             [
-                InlineKeyboardButton("sᴛʀᴇᴀᴍ 🖥", url=stream),
-                InlineKeyboardButton("ᴅᴏᴡɴʟᴏᴀᴅ 📥", url=download)
+                InlineKeyboardButton("📱 🅢🅣🅡🅔🅐🅜 🍿", url=stream),
+                InlineKeyboardButton("📩 🅓🅞🅦🅝🅛🅞🅐🅓 🅛🅘🅝🅚 🖇️", url=download)
             ]
         ] 
     )
