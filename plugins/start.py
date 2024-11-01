@@ -25,6 +25,14 @@ async def start(client, message):
                     InlineKeyboardButton("🦋 𝐅𝐨𝐥𝐥𝐨𝐰 𝐌𝐞 🦋" ,url="https://t.me/KanhaContentbot") ]                               
             ]))
     )
+
+    await client.send_photo(
+                chat_id=message.from_user.id,
+                photo="https://graph.org/file/95a9fc09cc310c0c8cd6f.jpg",
+                parse_mode=enums.ParseMode.HTML
+    )
+    return
+    
     await client.send_message(
         chat_id=message.from_user.id,
         photo="https://graph.org/file/95a9fc09cc310c0c8cd6f.jpg",
