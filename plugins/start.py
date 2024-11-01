@@ -16,26 +16,18 @@ async def start(client, message):
         await db.add_user(message.from_user.id, message.from_user.first_name)
         await client.send_message(LOG_CHANNEL, script.LOG_TEXT_P.format(message.from_user.id, message.from_user.mention))
     rm = InlineKeyboardMarkup(
-        [
-                    [
-                    InlineKeyboardButton("✜ 𝐉𝐨𝐢𝐧 𝐔𝐩𝐃𝐚𝐭𝐞 𝐂𝐡𝐚𝐧𝐧𝐞𝐥 ✜" ,url=f"https://t.me/Sonickuwalupdate") ],
-                    [
-                    InlineKeyboardButton("✜◆ 𝐂𝐨𝐧𝐭𝐚𝐜𝐭 ◆✜" ,url="https://t.me/KanhaContentbot") ],
-                    [
-                    InlineKeyboardButton("🦋 𝐅𝐨𝐥𝐥𝐨𝐰 𝐌𝐞 🦋" ,url="https://t.me/KanhaContentbot") ]                               
-        ]
+        [[
+            InlineKeyboardButton("✨ Update Channel", url="https://t.me/Sonickuwalupdate")
+        ]] 
     )
-
-
-    
     await client.send_message(
         chat_id=message.from_user.id,
-        photo="https://graph.org/file/95a9fc09cc310c0c8cd6f.jpg",
         text=script.START_TXT.format(message.from_user.mention, temp.U_NAME, temp.B_NAME),
         reply_markup=rm,
         parse_mode=enums.ParseMode.HTML
     )
     return
+
 
 
 @Client.on_message(filters.private & (filters.document | filters.video))
