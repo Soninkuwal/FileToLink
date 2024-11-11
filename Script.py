@@ -13,7 +13,7 @@ Now Send Me A Media To See Magic ✨
 ╔══════════════════╗
  [📌 JOIN MOVIE GROUP 🎭 ] 
    👇👇👇👇👇👇👇👇👇
-<a href=https://t.me/SONICKUWALMOVIE>JOIN MOVIE 🎥 GROUP</a>
+<a href=https://t.me/+40ptckYFQnRmNjk1>JOIN MOVIE 🎥 GROUP</a>
 
  [📌 JOIN UPDATE CHANNEL ⚡]
 👇👇👇👇👇👇👇👇
@@ -21,6 +21,8 @@ Now Send Me A Media To See Magic ✨
 ╚══════════════════╝
 
 NOTES: 🌝 THIS FILE LINK ✅ NEVER DELETE ! 😃
+
+‣ FOR ANY QURY  <a href="https://t.me/KanhaContentbot"> ⭐ CONTET ME ⭐</a>
 
 ‣ JOIN  <a href="https://t.me/Sonickuwalupdate"> ⭐ TELEGRAM CHANNEL ⭐</a></b>"""
 
